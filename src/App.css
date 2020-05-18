@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
-}
+.header-color{
+  background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+.home-page
+{
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width:100%;
+  height:100%
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.contact-body
+{
+  margin: auto;
+ 
+  position: fixed;
+  width: 100%;
+  height: 100%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-top: 2em;
+}
+.intro
+{
+  width: 75%;
+  margin: auto;
+  padding-top: 3em;
+}
+.contact-grids
+{
+  text-align: center;
+  height: 550px;
+  color: black;
+  justify-content: center;
+  width: auto;
+ 
+  margin-bottom: 20px;
+  background-color: azure;
+}
+.resume-r {
+  background: #27221F;
   color: white;
+
+}
+.resume-r-r
+{
+  padding-top: '2em';
+}
+.contact-grids h2
+{
+  font-family: 'Anton ',sans-serif;
+  font-weight: bold;
+  
+}
+.contact-grid hr {
+  border-top: 10px;
+  margin: auto;
+  width: 50%;
+  color:black
+}
+.contact-grids p
+{
+  font-family: 'Oxyen',sans-serif;
+  font-weight: bold;
+}
+.contact-list i
+{
+  font-size: 50px;
+  padding-right: 5rem;
+
+}
+.Project-grid{
+  display:flex;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.banner{
+  background-color:transparent;
+  opacity: 8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  /* font-display: center; */
 }
+.banner h1{
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  /* background-color:#0f0c29; */
+}
+.banner hr{
+  border-top: 5px solid white;
+  width: 50%;
+  margin: auto;
+}
+.banner p{
+  color: aliceblue;
+  font-size: 20px;
+  padding: 1em;
+}
+.social-links{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin: auto;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+}
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
 }
